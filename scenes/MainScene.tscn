@@ -1,3 +1,10 @@
-[gd_scene load_steps=0 format=3 uid="uid://chh7buyrlqfib"]
+[gd_scene load_steps=2 format=3 uid="uid://chh7buyrlqfib"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="Texture2D" uid="uid://dln3dvnbt4o5b" path="res://assets/textures/測試卡片.png" id="1_echbf"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(107, 544)
+scale = Vector2(0.128906, 0.11263)
+texture = ExtResource("1_echbf")

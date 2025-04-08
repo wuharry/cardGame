@@ -2,11 +2,18 @@
 
 這是一個使用 Godot 引擎開發的卡牌遊戲專案。本專案旨在創建一個互動式卡牌遊戲，提供流暢的遊戲體驗和精美的視覺效果。
 
+## 美術素材資源來原
+
+PicLumen
+Stable Diffusion
+ChatGPT
+
 ## 目錄結構
 
 專案的目錄結構經過精心設計，以保持程式碼和資源的組織性：
 
 ```
+
 cardGame/
 ├── assets/             # 資源文件目錄
 │   ├── fonts/          # 字體資源
@@ -34,9 +41,11 @@ cardGame/
 
 1. 安裝 Godot 引擎（建議使用 Godot 4.x 版本）
 2. 克隆此儲存庫：
+
    ```
    git clone https://github.com/wuharry/cardGame.git
    ```
+
 3. 使用 Godot 引擎開啟專案目錄中的 `project.godot` 文件
 4. 等待 Godot 引擎匯入所有資源文件
 
@@ -82,4 +91,3 @@ cardGame/
 ## 版權信息
 
 © 2025 卡牌遊戲開發團隊。保留所有權利。
-
